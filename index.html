@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Lev Bakin</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento" rel="stylesheet">
+  <link rel="icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+
+  <div class="navbar" id="myTopnav">
+    <a href="#home" class="active">Home</a>
+
+      <div class="navDropdown">
+      <button class="navDropBtn" onclick="dropItLikeItsHot()">
+          Projects
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="navDropLinks" id="projectsLinks">
+        <a href="/projects/Simon_Game/index.html">Simon Says</a>
+        <a href="/projects/Drum_Kit/index.html">Drum Kit</a>
+        <a href="/projects/Dice_Game/dicee.html">Dice Game</a>
+      </div>
+      </div>
+        <a href="Resume_LB_Fall_2019.pdf" target="_blank">Resume</a>
+        <a href="#contact">Contact</a>
+
+    </div>
+
+
+
+  <div class="top-container">
+
+    <img class="top-cloud" src="images/cloud.png" alt="cloud">
+    <div class="title-text">
+      <h1>I'm Lev</h1>
+      <h2>a front end developer.</h2>
+    </div>
+    <img class="bottom-cloud" src="images/cloud.png" alt="cloud">
+    <img class="mountain" src="images/mountain.png" alt="mountain-img">
+  </div>
+
+  <div class="middle-container">
+    <div class="profile">
+      <img class = "self_portrait" src="images/lev_pin.png" alt="lev-profile-img">
+      <h2>Hello</h2>
+      <p class="intro">Thank you for visiting my site! Feel free to look around and reach out to me if you'd like any work done or if you just have any questions.</p>
+    </div>
+    <hr>
+    <div class="skills">
+      <h2>My Skills</h2>
+      <div class="skill-row">
+        <a href="/projects/simple_site/index.html">
+        <img class="code-img" src="images/other_site_scrnsht.png" alt="site-preview-img">
+        </a>
+        <h3>Design & Development</h3>
+        <p>I can make websites with a few different focuses.
+          This main landing page is written in simple HTML/CSS.
+          If you'd a site that is more responsive to mobile platforms, click on the image to your left.
+          The code for all my sites is available on this <a class="mid_container_links" href="https://github.com/lbakin">github repository</a>.</p>
+<!-- upload other sites -->
+
+      </div>
+      <div class="skill-row">
+        <a href="/projects/Simon_Game/index.html">
+        <img class="simonsays-img" src="https://northtexasperformingarts.org/wp-content/uploads/2019/09/jjju-2.gif" alt="simon-says-gif">
+        </a>
+        <h3>Projects</h3>
+        <p> As I gain more and more experience, I'll upload my projects to my github.
+           So far, I'm most proud of my <a class="mid_container_links" href="/projects/Simon_Game/index.html">Simon Says game</a> and this <a class="mid_container_links" href="/projects/Drum_Kit/index.html"> digital drum kit</a>, both written in JavaScript.
+           I'm currently working on a blog website which will utilize Node.js & SQL for the back-end work.
+      </div>
+    </div>
+    <hr>
+    <div class="contact-me" id="contact">
+      <h2>Get In Touch</h2>
+      <h3>If you love making sites as much as I do</h3>
+      <p class="contact-message"></p>
+      <a class="btn" href="mailto:levbakin@gmail.com">CONTACT ME</a>
+    </div>
+  </div>
+
+
+  <div class="bottom-container">
+
+    <a class="footer-link" href="https://www.linkedin.com/in/angela-yu-963a584b/">LinkedIn</a>
+    <!-- <a class="footer-link" href="levbakin@gmail.com">Email</a> -->
+    <!-- <a class="footer-link" href="https://lbakin.github.io/">Website</a> -->
+    <p class="copyright">© 2020 Lev Bakin</p>
+  </div>
+
+  <script>
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+
+function dropItLikeItsHot() {
+  document.getElementById("projectsLinks").classList.toggle("show");
+console.log(this.id);
+}
+
+
+// Close the dropdown if the user clicks outside of it
+
+window.onclick = function(e) {
+  if (!e.target.matches('.navDropBtn')) {
+  var myDropdown = document.getElementById("projectsLinks");
+    if (myDropdown.classList.contains('show')) {
+      myDropdown.classList.remove('show');
+    }
+  }
+}
+</script>
+
+</body>
+
+</html>
