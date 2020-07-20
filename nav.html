@@ -1,0 +1,53 @@
+<!--Navigation bar add this into index html-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <!-- <button>ok</button> -->
+
+  <div class="navbar" id="myTopnav">
+    <a href="#home" class="active">Home</a>
+
+      <div class="navDropdown">
+      <button class="navDropBtn" onclick="dropItLikeItsHot()">
+          Projects
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="navDropLinks" id="projectsLinks">
+        <a href="/projects/Simon_Game/index.html">Simon Says</a>
+        <a href="/projects/Drum_Kit/index.html">Drum Kit</a>
+        <a href="/projects/Dice_Game/dicee.html">Dice Game</a>
+      </div>
+      </div>
+        <a href="Resume_LB_Fall_2019.pdf" target="_blank">Resume</a>
+        <a href="#contact">Contact</a>
+
+    </div>
+
+
+
+  <script>
+console.log("nav.html is loaded");
+</script>
+</body>
+</html>
+
+<!-- <div id="nav-placeholder">
+
+</div>
+
+<script>
+$(function(){
+  $("#nav-placeholder").load("nav.html");
+  // issue might be as simple as wrong nav link
+});
+</script>
+<!--end of Navigation bar-->
+
+<!-- <script>console.log("nav bar loaded")</script> -->
