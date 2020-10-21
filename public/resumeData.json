@@ -1,0 +1,112 @@
+{
+  "main": {
+    "name":"Lev Bakin",
+    "description":"I'm a front-end web developer and I primarily use react to develop pages",
+    "image":"profilepic.jpg",
+    "bio":"When I'm not coding, I like to go backpacking and ride my snowboard. My more sedentary hobbies have me reading, looking at maps, and playing video games. In particular, I frequently play an arcade game called Killer Queen, where I lead the local Madison group and have won some major national tournaments.",
+    "contactmessage":"If you'd like to get in touch, you can contact me at the phone or email below.",
+    "email": "levbakin@gmail.com",
+    "phone": "408-394-3627",
+    "github":"https://github.com/lbakin",
+    "project":"https://github.com/lbakin",
+    "address":{
+      "street":"",
+      "city":"Madison",
+      "state":"WI",
+      "zip": "53703"
+    },
+    "website": "lbakin.github.io",
+    "resumedownload":"lbakin.github.io",
+    "social":[
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/lev-bakin-444b9344/",
+        "className":"fa fa-linkedin"
+      },
+      {
+        "name":"facebook",
+        "url":"https://www.facebook.com/lev.bakin/",
+        "className":"fa fa-facebook"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/lbakin",
+        "className":"fa fa-github"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"My knowledge of the language as a percentile compared to all users. This is a very simplified estimation just to show relative competency. Specific uses for each skill vary widely of course.",
+    "education": [
+      {
+        "school":"University of California, Santa Cruz",
+        "degree":"BS Earth Sciences",
+        "graduated":"June 2012",
+        "description":""
+      }
+
+    ],
+    "work":[
+      {
+        "company":"Front-end Web Developer Training",
+        "title":"",
+        "years":"May 2010 - Present",
+        "description": "Completing course(s) on essential training for web developers. I’ve created projects and websites using not only the core of HTML/CSS/JS, but also jQuery, Node.js, and React.js."
+      },
+      {
+        "company":"Part-time data entry and census enumerator",
+        "title":"",
+        "years":"May 2010 - Present",
+        "description": "Meanwhile, I've been working part-time in data entry and detail focused roles as well as a recent stint as a census enumerator. Some duties include preparing, compiling and sorting documents for data entry into the prescribed computer database as well as providing general administrative support."
+      },
+      {
+        "company":"Continental Mapping Consultants",
+        "title":"Geospatial Analyst",
+        "years":"June 2018 - April 2019",
+        "description":"Extracted features from satellite imagery (ie. roads, buildings, rivers) and denoted their relevant attributes for use in government operations. This information was entered into the project database, manipulated with SQL, and delivered to the client."
+
+      }
+    ],
+    "skills":[
+      {
+        "name":"ArcGIS",
+        "level":"70%"
+      },
+      {
+        "name":"CSS",
+        "level":"60%"
+      },
+      {
+        "name":"Git",
+        "level":"50%"
+      },
+      {
+        "name":"Javascript",
+        "level":"60%"
+      },
+      {
+        "name":"Python",
+        "level":"10%"
+      },
+      {
+        "name":"ReactJs",
+        "level":"50%"
+      },
+      {
+        "name":"SQL",
+        "level":"40%"
+      }
+    ]
+  },
+  "portfolio":{
+    "projects": [
+      {
+        "title":"",
+        "category":"",
+        "image":"",
+        "url":""
+      }
+
+    ]
+  }
+}
