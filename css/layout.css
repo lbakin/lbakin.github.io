@@ -33,7 +33,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   
+
    text-align: center;
    overflow: hidden;
 }
@@ -201,10 +201,9 @@ ul#nav li.current a { color: #fe6928; }
    color: #ccc;
 }
 #about .profile-pic {
-   position: relative;
-   width: 120px;
-   height: 120px;
+   background-color: #f2eaea;
    border-radius: 100%;
+   position: relative;
 }
 #about .contact-details { width: 41.66667%; }
 #about .download {
@@ -1011,7 +1010,7 @@ footer .social-links li:first-child { margin-left: 0; }
 }
 .social .btn{
    padding-left: 30px;
-   padding-right: 30px; 
+   padding-right: 30px;
 }
 .social .btn i{
    margin-right: 15px;
