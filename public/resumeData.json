@@ -8,7 +8,7 @@
     "email": "levbakin@gmail.com",
     "phone": "408-394-3627",
     "github":"https://github.com/lbakin",
-    "project":"https://github.com/lbakin",
+    "project":"https://github.com/lbakin/lbakin.github.io",
     "address":{
       "street":"",
       "city":"Madison",
@@ -16,7 +16,7 @@
       "zip": "53703"
     },
     "website": "lbakin.github.io",
-    "resumedownload":"lbakin.github.io",
+    "resumedownload":"./Resume_LB.pdf",
     "social":[
       {
         "name":"linkedin",
