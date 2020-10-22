@@ -2,7 +2,7 @@
 
 ### DEMO is [here](lbakin.github.io)
 
-![img](https://github.com/lbakin/lbakin.github.io/master/public/images/img.jpg?raw=true)
+![img](https://github.com/lbakin/lbakin.github.io/public/images/img.jpg?raw=true)
 
 # About [`particles-bg`](https://github.com/lindelof/particles-bg) library
 #### This project uses the react particle background component library [https://github.com/lindelof/particles-bg](https://github.com/lindelof/particles-bg).
