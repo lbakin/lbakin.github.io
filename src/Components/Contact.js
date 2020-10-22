@@ -14,6 +14,8 @@ class Contact extends Component {
       var message = this.props.data.contactmessage;
     }
 
+
+
     return (
       <section id="contact">
 
@@ -34,49 +36,12 @@ class Contact extends Component {
          </div>
 
          <div className="row">
-            <div className="eight columns">
-
-               <form action="" method="post" id="contactForm" name="contactForm">
-					<fieldset>
-
-                  <div>
-						   <label htmlFor="contactName">Name <span className="required">*</span></label>
-						   <input type="text" defaultValue="" size="35" id="contactName" name="contactName" onChange={this.handleChange}/>
-                  </div>
-
-                  <div>
-						   <label htmlFor="contactEmail">Email <span className="required">*</span></label>
-						   <input type="text" defaultValue="" size="35" id="contactEmail" name="contactEmail" onChange={this.handleChange}/>
-                  </div>
-
-                  <div>
-						   <label htmlFor="contactSubject">Subject</label>
-						   <input type="text" defaultValue="" size="35" id="contactSubject" name="contactSubject" onChange={this.handleChange}/>
-                  </div>
-
-                  <div>
-                     <label htmlFor="contactMessage">Message <span className="required">*</span></label>
-                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
-                  </div>
-
-                  <div>
-                     <button className="submit">Submit</button>
-                     <span id="image-loader">
-                        <img alt="" src="images/loader.gif" />
-                     </span>
-                  </div>
-					</fieldset>
-				   </form>
-
-           <div id="message-warning"> Error boy</div>
-				   <div id="message-success">
-                  <i className="fa fa-check"></i>Your message was sent, thank you!<br />
-				   </div>
-           </div>
 
 
-            <aside className="four columns footer-widgets">
-               <div className="widget widget_contact">
+
+
+               <div className="widget widget_contact"
+               style={{textAlign:"center"}}>
 
 					   <h4>Contact Information</h4>
 					   <p className="address">
@@ -87,7 +52,7 @@ class Contact extends Component {
 					   </p>
 				   </div>
 
-
+            <aside className="four columns footer-widgets">
             </aside>
       </div>
    </section>
@@ -96,3 +61,44 @@ class Contact extends Component {
 }
 
 export default Contact;
+
+
+// Moved form code down here while I get the submit button working properly. I also adjusted the text alignment for the contact info
+// It's ugly, but close to working. Might update the forms to handle state in a different way afterwards
+
+// function sendEmail(event) {
+  // alert("Form submission currently under repair. Please use contact info to the right for the time being.");
+  // event.preventDefault();
+// }
+
+// <form action="" method="post" id="contactForm" name="contactForm">
+// <fieldset>
+//
+//    <div>
+// <label htmlFor="contactName">Name <span className="required">*</span></label>
+// <input type="text" defaultValue="" size="35" id="contactName" name="contactName" onChange={this.handleChange}/>
+//    </div>
+//
+//    <div>
+// <label htmlFor="contactEmail">Email <span className="required">*</span></label>
+// <input type="text" defaultValue="" size="35" id="contactEmail" name="contactEmail" onChange={this.handleChange}/>
+//    </div>
+//
+//    <div>
+// <label htmlFor="contactSubject">Subject</label>
+// <input type="text" defaultValue="" size="35" id="contactSubject" name="contactSubject" onChange={this.handleChange}/>
+//    </div>
+//
+//    <div>
+//       <label htmlFor="contactMessage">Message <span className="required">*</span></label>
+//       <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+//    </div>
+//
+//    <div>
+//       <button onClick={sendEmail} className="submit">This form currently under repair</button>
+//       <span id="image-loader">
+//          <img alt="" src="images/loader.gif" />
+//       </span>
+//    </div>
+// </fieldset>
+// </form>
