@@ -45,8 +45,8 @@ class Contact extends Component {
 
 					   <h4>Contact Information</h4>
 					   <p className="address">
-						   {name}<br />
-						   {city}, {state} {zip}<br />
+						   {name}
+						   {city} {state} {zip}<br />
 						  {phone}<br />
                {email}
 					   </p>

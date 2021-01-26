@@ -6,7 +6,7 @@ class Portfolio extends Component {
     if (this.props.data) {
       var projects = this.props.data.projects.map(function (projects) {
         var projectImage = 'images/portfolio/' + projects.image;
-        
+
         return (
           <div key={projects.title} className="columns portfolio-item">
             <div className="item-wrap">
@@ -32,7 +32,8 @@ class Portfolio extends Component {
 
           <div className="twelve columns collapsed">
 
-            <h1>Check Out Some of My Works.</h1>
+            <h1>Check out some of my works</h1>
+            <h3> These projects show a progression of my knowledge level as my coding skills have improved</h3>
 
             <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
               {projects}
