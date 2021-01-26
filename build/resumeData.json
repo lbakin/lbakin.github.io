@@ -1,19 +1,19 @@
 {
   "main": {
     "name":"Lev Bakin",
-    "description":"I'm a front-end web developer and I primarily use react to develop pages",
+    "description":"I'm a front-end web developer and I primarily use vanilla JS, jQuery, and/or React to develop pages. The Project link takes you to my current favorite project I'm working on",
     "image":"profilepic.jpg",
-    "bio":"When I'm not coding, I like to go backpacking and ride my snowboard. My more sedentary hobbies have me reading, looking at maps, and playing video games. In particular, I frequently play an arcade game called Killer Queen, where I lead the local Madison group and have won some major national tournaments.",
+    "bio":"When I'm not coding, I like to go backpacking and ride my snowboard. My more sedentary hobbies have me reading, looking at maps, and playing video games. In particular, I frequently play an arcade game called Killer Queen, where I lead the local Madison group and have won major national tournaments.",
     "contactmessage":"If you'd like to get in touch, you can contact me at the phone or email below.",
     "email": "levbakin@gmail.com",
     "phone": "408-394-3627",
     "github":"https://github.com/lbakin",
-    "project":"https://github.com/lbakin/lbakin.github.io",
+    "project":"https://terrain-guessr.herokuapp.com",
     "address":{
       "street":"",
-      "city":"Madison",
-      "state":"WI",
-      "zip": "53703"
+      "city":"",
+      "state":"",
+      "zip": ""
     },
     "website": "lbakin.github.io",
     "resumedownload":"./Resume_LB.pdf",
@@ -85,6 +85,10 @@
         "level":"60%"
       },
       {
+        "name": "Killer Queen",
+        "level": "95%"
+      },
+      {
         "name":"Python",
         "level":"10%"
       },
@@ -101,12 +105,35 @@
   "portfolio":{
     "projects": [
       {
-        "title":"",
-        "category":"",
-        "image":"",
-        "url":""
+        "title":"Terrain Guessr",
+        "category":"Mapping game made with primarily vanilla js",
+        "image":"Terrain-Guessr.png",
+        "url":"https://terrain-guessr.herokuapp.com"
+      },
+      {
+        "title":"First Portfolio Site",
+        "category":"This was the first personal website I made",
+        "image":"FirstPortfolioSite.png",
+        "url":"https://first-site-and-projects.herokuapp.com"
+      },
+      {
+        "title":"Drum Kit",
+        "category":"A digital drum kit",
+        "image":"DrumKit.png",
+        "url": "https://first-site-and-projects.herokuapp.com/projects/Drum_Kit/"
+      },
+      {
+        "title":"Simon Says",
+        "category":"My first interactive browser game",
+        "image":"SimonSays.png",
+        "url":"https://first-site-and-projects.herokuapp.com/projects/Simon_Game/"
+      },
+      {
+        "title":"Simple Responsive Site",
+        "category":"My first responsive page that adapted properly to different screen sizes",
+        "image":"SimpleResponsiveSite.png",
+        "url":"https://first-site-and-projects.herokuapp.com/projects/simple_site/"
       }
-
     ]
   }
 }
