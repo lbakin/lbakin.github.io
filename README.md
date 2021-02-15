@@ -1,5 +1,3 @@
-# Hunting down an issue that is causing a failure in the website. Please bear with me for the moment :)
-
 # My React Resume     
 
 ### DEMO is [here](lbakin.github.io)
