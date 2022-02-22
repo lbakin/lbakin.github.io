@@ -1,8 +1,7 @@
-# Hunting down an issue that is causing a failure in the website. Please bear with me for the moment :)
-
 # My React Resume     
 
-### DEMO is [here](lbakin.github.io)
+## This site is currently down. I am reworking it to incorporate some of the skills I've gained during my internship
+
 
 ![img](https://github.com/lbakin/lbakin.github.io/blob/master/public/images/img.jpg)
 
@@ -13,17 +12,3 @@
 
 ## Description
 This project forks from [https://github.com/tbakerx/react-resume-template](https://github.com/tbakerx/react-resume-template), I made some modifications and adjustments.
-
-## Run Project
-### 1. Clone the project
-
-### 2. Run the project
-```shell
-npm i
-npm start
-```
-
-### 3. Build
-```shell
-npm run build
-```
