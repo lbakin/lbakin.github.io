@@ -35,6 +35,17 @@ class Resume extends Component {
           </li>
         )
       })
+
+      var tech = this.props.data.tech.map((tech)=>{
+        var techImg = 'images/tech/' + tech.image;
+        return(
+          <div key={tech.name} className="columns feature-item">
+            <img className = "skills" src={techImg}></img>
+            <h4>{tech.name}</h4>
+            <p>{tech.description}</p>
+          </div>
+        )
+      })
     }
 
     return (
@@ -70,21 +81,21 @@ class Resume extends Component {
 
       <div className="row skill">
 
-         <div className="three columns header-col">
-            <h1><span>Skills</span></h1>
-         </div>
+        <div className="three columns header-col">
+          <h1><span>Skills</span></h1>
+        </div>
+        <div>
+          <div className="nine columns main-col" >
+              <p className="lead center">{skillmessage}</p>
+          
+          <ul className = "bgrid-thirds cf">
+            
+              {tech}
+            
+          </ul>
+          </div>  
+        </div>
 
-         <div className="nine columns main-col">
-
-            <p>{skillmessage}
-            </p>
-
-				<div className="bars">
-				   <ul className="skills">
-					  {skills}
-					</ul>
-				</div>
-			</div>
       </div>
    </section>
     );
@@ -92,3 +103,9 @@ class Resume extends Component {
 }
 
 export default Resume;
+
+				{/* <div className="bars">
+				   <ul className="skills">
+					  {skills}
+					</ul>
+				</div> */}

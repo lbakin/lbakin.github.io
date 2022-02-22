@@ -1,19 +1,19 @@
 {
   "main": {
     "name":"Lev Bakin",
-    "description":"I'm a front-end web developer and I primarily use vanilla JS, jQuery, and/or React to develop pages. The Project link takes you to my current favorite project I'm working on",
+    "description":"I'm a frontend web developer trying to make interesting and engaging websites. My current favorite project is Terrain Guessr, a game that drops you on a terrain map and challenges you to find yourself.",
     "image":"profilepic.jpg",
     "bio":"When I'm not coding, I like to go backpacking and ride my snowboard. My more sedentary hobbies have me reading, looking at maps, and playing video games. In particular, I frequently play an arcade game called Killer Queen, where I lead the local Madison group and have won major national tournaments.",
-    "contactmessage":"If you'd like to get in touch, you can contact me at the phone or email below.",
+    "contactmessage":"If you'd like to get in touch, you can contact me at the phone number or email below.",
     "email": "levbakin@gmail.com",
     "phone": "408-394-3627",
     "github":"https://github.com/lbakin",
-    "project":"https://terrain-guessr.herokuapp.com",
+    "project":"https://github.com/lbakin/terrain-guessr",
     "address":{
       "street":"",
-      "city":"",
-      "state":"",
-      "zip": ""
+      "city":"Madison",
+      "state":"WI",
+      "zip": "53703"
     },
     "website": "lbakin.github.io",
     "resumedownload":"./Resume_LB.pdf",
@@ -36,38 +36,79 @@
     ]
   },
   "resume":{
-    "skillmessage":"My knowledge of the language as a percentile compared to all users. This is a very simplified estimation just to show relative competency. Specific uses for each skill vary widely of course.",
     "education": [
       {
         "school":"University of California, Santa Cruz",
         "degree":"BS Earth Sciences",
         "graduated":"June 2012",
         "description":""
+      },
+      {
+        "school":"The Complete 2020 Web Dev Bootcamp by Angela Yu",
+        "degree":"",
+        "graduated":"2020",
+        "description":""
       }
 
     ],
     "work":[
       {
-        "company":"Front-end Web Developer Training",
-        "title":"",
-        "years":"May 2010 - Present",
-        "description": "Completing course(s) on essential training for web developers. I’ve created projects and websites using not only the core of HTML/CSS/JS, but also jQuery, Node.js, and React.js."
+        "company":"Web Development Intern",
+        "title":"Wisconsin Dept of Children & Families",
+        "years":"April 2021 - Nov 2021",
+        "description":"I administrated the internal and external sites run by DCF, and ensured all pages were up to date. During the internship, I learned how to utilize the Drupal CMS, integrate Vue.js widgets, and debug PHP scripts. It was a great experience serving the public and helping ensure people's needs were met."
+                
       },
       {
-        "company":"Part-time data entry and census enumerator",
+        "company":"Frontend Web Developer",
         "title":"",
-        "years":"May 2010 - Present",
-        "description": "Meanwhile, I've been working part-time in data entry and detail focused roles as well as a recent stint as a census enumerator. Some duties include preparing, compiling and sorting documents for data entry into the prescribed computer database as well as providing general administrative support."
+        "years":"May 2020 - Present",
+        "description": "Consistently growing my skills and experience throughout various contracts and projects, including in non web development based areas such as graphic design. My current focus is upgrading the Terrain Guessr site with a leaderboard database and a couple other small features that I think people will enjoy."
       },
       {
         "company":"Continental Mapping Consultants",
         "title":"Geospatial Analyst",
         "years":"June 2018 - April 2019",
         "description":"Extracted features from satellite imagery (ie. roads, buildings, rivers) and denoted their relevant attributes for use in government operations. This information was entered into the project database, manipulated with SQL, and delivered to the client."
-
+      }
+    ],
+    "skillmessage":"These are my favorite technologies to work with when building websites",
+    "tech":[
+      {
+        "name":"jQuery",
+        "description":"I appreciate that jquery allows me to quickly create the functionality I need without the longer setup vanilla js often requires.",
+        "image": "jquery.png"
+      },
+      {
+        "name":"Git",
+        "description":"I've used Git for version control in small teams as well as uploading my personal projects to github or heroku.",
+        "image": "git.png"
+      },
+      {
+        "name":"Vue.js",
+        "description":"I love how easy to use and lightweight Vue is. My projects involving Vue have been smaller and the ease of integration has been wonderful.",
+        "image": "vuejs.png"
+      },
+      {
+        "name":"Bootstrap",
+        "description":"I hope to never take Bootstrap for granted. I appreciate how cleanly this framework allows me to manipulate the css and general layout.",
+        "image": "bootstrap.jpg"
+      },
+      {
+        "name":"Drupal",
+        "description":"This CMS is great for administering large numbers of users and all the varying functionality it offers.",
+        "image": "drupal.png"
+      },
+      
+      
+      {
+        "name":"PHP and MySQL",
+        "description":"I'm still quite inexperienced on the backend, but have found PHP and MySQL to be pretty intuitive to setup and work with.",
+        "image": "php-mysql.jpg"
       }
     ],
     "skills":[
+      
       {
         "name":"ArcGIS",
         "level":"70%"
@@ -83,10 +124,6 @@
       {
         "name":"Javascript",
         "level":"60%"
-      },
-      {
-        "name": "Killer Queen",
-        "level": "95%"
       },
       {
         "name":"Python",
@@ -106,34 +143,23 @@
     "projects": [
       {
         "title":"Terrain Guessr",
-        "category":"Mapping game made with primarily vanilla js",
-        "image":"Terrain-Guessr.png",
-        "url":"https://terrain-guessr.herokuapp.com"
+        "category":"A game to challenge your geography skills",
+        "image":"terrain-guessr.png",
+        "url":"https://terrain-guessr.herokuapp.com/"
       },
       {
-        "title":"First Portfolio Site",
-        "category":"This was the first personal website I made",
-        "image":"FirstPortfolioSite.png",
-        "url":"https://first-site-and-projects.herokuapp.com"
+        "title":"DCF Site",
+        "category":"Dept of Children & Families public website",
+        "image":"dcf.png",
+        "url":"https://dcf.wisconsin.gov/"
       },
       {
-        "title":"Drum Kit",
-        "category":"A digital drum kit",
-        "image":"DrumKit.png",
-        "url": "https://first-site-and-projects.herokuapp.com/projects/Drum_Kit/"
-      },
-      {
-        "title":"Simon Says",
-        "category":"My first interactive browser game",
-        "image":"SimonSays.png",
-        "url":"https://first-site-and-projects.herokuapp.com/projects/Simon_Game/"
-      },
-      {
-        "title":"Simple Responsive Site",
-        "category":"My first responsive page that adapted properly to different screen sizes",
-        "image":"SimpleResponsiveSite.png",
-        "url":"https://first-site-and-projects.herokuapp.com/projects/simple_site/"
+        "title":"First Site",
+        "category":"(Offline now) This was the first site I ever created! Link goes to my github repository where the code is hosted.",
+        "image":"first-site.png",
+        "url":"lbakin.github.io"
       }
+      
     ]
   }
 }

@@ -33,8 +33,8 @@ class About extends Component {
 						   <span>{name}</span><br />
 
 						   <span>
-						         {city} {state}
-                   </span>
+						         {city}, {state}
+                   </span><br />
 						   <span>{phone}</span><br />
                      <span>{email}</span>
 					   </p>

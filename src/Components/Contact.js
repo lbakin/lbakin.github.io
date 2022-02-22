@@ -45,8 +45,8 @@ class Contact extends Component {
 
 					   <h4>Contact Information</h4>
 					   <p className="address">
-						   {name}
-						   {city} {state} {zip}<br />
+						   {name}<br />
+						   {city}, {state} {zip}<br />
 						  {phone}<br />
                {email}
 					   </p>
@@ -69,7 +69,7 @@ export default Contact;
 // function sendEmail(event) {
   // alert("Form submission currently under repair. Please use contact info to the right for the time being.");
   // event.preventDefault();
-// }
+//}
 
 // <form action="" method="post" id="contactForm" name="contactForm">
 // <fieldset>

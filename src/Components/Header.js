@@ -15,7 +15,7 @@ class Header extends Component {
       })
     }
 
-  <li><a className="smoothscroll" href="#portfolio">Works</a></li>
+  
     return (
       <header id="home">
       <ParticlesBg type="circle" bg={true} />
@@ -26,7 +26,7 @@ class Header extends Component {
          <ul id="nav" className="nav">
             <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
             <li><a className="smoothscroll" href="#about">About</a></li>
-	          <li><a className="smoothscroll" href="#resume">Resume</a></li>
+	         <li><a className="smoothscroll" href="#resume">Resume</a></li>
             <li><a className="smoothscroll" href="#portfolio">Works</a></li>
             <li><a className="smoothscroll" href="#contact">Contact</a></li>
          </ul>
@@ -36,7 +36,7 @@ class Header extends Component {
 
          <div className="banner-text">
             <h1 className="responsive-headline">{name}</h1>
-            <h3>{description}.</h3>
+            <h3>{description}</h3>
             <hr />
             <ul className="social">
                <a href={project} className="button btn project-btn"><i className="fa fa-book"></i>Project</a>
