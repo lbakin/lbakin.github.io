@@ -4,6 +4,8 @@
 
 
 ![img](https://github.com/lbakin/lbakin.github.io/blob/master/public/images/screenshot_site_img.jpg)
+![img](https://github.com/lbakin/lbakin.github.io/blob/master/public/images/screenshot_site_img_pt1.png)
+![img](https://github.com/lbakin/lbakin.github.io/blob/master/public/images/screenshot_site_img_pt2.png)
 
 # About [`particles-bg`](https://github.com/lindelof/particles-bg) library
 #### This project uses the react particle background component library [https://github.com/lindelof/particles-bg](https://github.com/lindelof/particles-bg).
