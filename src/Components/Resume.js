@@ -10,7 +10,7 @@ class Resume extends Component {
     }
     return color;
   }
-  
+
   render() {
 
     if(this.props.data){
@@ -87,13 +87,13 @@ class Resume extends Component {
         <div>
           <div className="nine columns main-col" >
               <p className="lead center">{skillmessage}</p>
-          
-          <ul className = "bgrid-thirds cf">
-            
+
+          <ul className = "bgrid-quarters cf">
+
               {tech}
-            
+
           </ul>
-          </div>  
+          </div>
         </div>
 
       </div>
