@@ -57,7 +57,7 @@
         "title":"Wisconsin Dept of Children & Families",
         "years":"April 2021 - Nov 2021",
         "description":"I administrated the internal and external sites run by DCF, and ensured all pages were up to date. During the internship, I learned how to utilize the Drupal CMS, integrate Vue.js widgets, and debug PHP scripts. It was a great experience serving the public and helping ensure people's needs were met."
-                
+
       },
       {
         "company":"Frontend Web Developer",
@@ -77,38 +77,44 @@
       {
         "name":"jQuery",
         "description":"I appreciate that jquery allows me to quickly create the functionality I need without the longer setup vanilla js often requires.",
-        "image": "jquery.png"
+        "image": "jquery.png",
+        "alt": "jQuery logo"
       },
       {
         "name":"Git",
         "description":"I've used Git for version control in small teams as well as uploading my personal projects to github or heroku.",
-        "image": "git.png"
+        "image": "git.png",
+        "alt": "git logo"
       },
       {
         "name":"Vue.js",
         "description":"I love how easy to use and lightweight Vue is. My projects involving Vue have been smaller and the ease of integration has been wonderful.",
-        "image": "vuejs.png"
+        "image": "vuejs.png",
+        "alt": "vuejs logo"
       },
       {
         "name":"Bootstrap",
         "description":"I hope to never take Bootstrap for granted. I appreciate how cleanly this framework allows me to manipulate the css and general layout.",
-        "image": "bootstrap.jpg"
+        "image": "bootstrap.jpg",
+        "alt": "bootstrap logo"
       },
       {
         "name":"Drupal",
         "description":"This CMS is great for administering large numbers of users and all the varying functionality it offers.",
-        "image": "drupal.png"
+        "image": "drupal.png",
+        "alt": "drupal logo"
       },
-      
-      
+
+
       {
         "name":"PHP and MySQL",
         "description":"I'm still quite inexperienced on the backend, but have found PHP and MySQL to be pretty intuitive to setup and work with.",
-        "image": "php-mysql.jpg"
+        "image": "php-mysql.jpg",
+        "alt": "php and mysql combined logo"
       }
     ],
     "skills":[
-      
+
       {
         "name":"ArcGIS",
         "level":"70%"
@@ -159,7 +165,7 @@
         "image":"first-site.png",
         "url":"lbakin.github.io"
       }
-      
+
     ]
   }
 }
