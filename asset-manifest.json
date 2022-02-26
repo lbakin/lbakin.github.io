@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/github.io/lbakin.github.io/static/css/main.62f996fb.css",
-    "main.js": "/github.io/lbakin.github.io/static/js/main.c71c6ba1.js",
-    "index.html": "/github.io/lbakin.github.io/index.html",
-    "main.62f996fb.css.map": "/github.io/lbakin.github.io/static/css/main.62f996fb.css.map",
-    "main.c71c6ba1.js.map": "/github.io/lbakin.github.io/static/js/main.c71c6ba1.js.map"
+    "main.css": "/lbakin.github.io/static/css/main.62f996fb.css",
+    "main.js": "/lbakin.github.io/static/js/main.dbfee227.js",
+    "index.html": "/lbakin.github.io/index.html",
+    "main.62f996fb.css.map": "/lbakin.github.io/static/css/main.62f996fb.css.map",
+    "main.dbfee227.js.map": "/lbakin.github.io/static/js/main.dbfee227.js.map"
   },
   "entrypoints": [
     "static/css/main.62f996fb.css",
-    "static/js/main.c71c6ba1.js"
+    "static/js/main.dbfee227.js"
   ]
 }
