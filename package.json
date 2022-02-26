@@ -1,6 +1,6 @@
 {
   "name": "react-test-app",
-  "homepage":"https://lbakin/github.io/lbakin.github.io",
+  "homepage": "https://lbakin/github.io/lbakin.github.io",
   "version": "0.1.0",
   "private": false,
   "dependencies": {
@@ -8,6 +8,7 @@
     "@testing-library/react": "^12.1.3",
     "@testing-library/user-event": "^13.5.0",
     "core-js": "^3.21.1",
+    "gh-pages": "^3.2.3",
     "jquery": "^3.6.0",
     "particles-bg": "^2.5.5",
     "react": "^17.0.2",
