@@ -6,10 +6,5 @@
 ![img](https://github.com/lbakin/lbakin.github.io/blob/master/public/images/screenshot_site_img_pt1.png)
 ![img](https://github.com/lbakin/lbakin.github.io/blob/master/public/images/screenshot_site_img_pt2.png)
 
-# About [`particles-bg`](https://github.com/lindelof/particles-bg) library
-#### This project uses the react particle background component library [https://github.com/lindelof/particles-bg](https://github.com/lindelof/particles-bg).
-
-![img](https://github.com/lindelof/particles-bg/raw/master/image/03.jpg?raw=true)
-
 ## Description
 This project forks from [https://github.com/tbakerx/react-resume-template](https://github.com/tbakerx/react-resume-template), I made some modifications and adjustments.
